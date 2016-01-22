@@ -12,7 +12,7 @@ osascript -e "tell application \"Adium\" to get the id of every account whose st
             s|^|{ "title": "|;
             s|, service |", "subtitle": "Connect to |;
             s|, |", "actionArgument": "|;
-            s|$|", "action": "online.sh", "icon": "com.adiumX.adiumX" },|
+            s|$|", "action": "online.sh", "icon": "Asleep" },|
         '
     done
 
