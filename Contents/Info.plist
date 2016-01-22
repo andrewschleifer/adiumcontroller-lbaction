@@ -2,30 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-
-    <key>CFBundleIdentifier</key>
-    <string>name.andrewschleifer.Launchbar.AdiumController</string>
-
-    <key>CFBundleName</key>
-    <string>Adium Controller</string>
-
-    <key>CFBundleIconFile</key>
-    <string>com.adiumX.adiumX</string>
-
-    <key>LBAssociatedApplication</key>
-    <string>com.adiumX.adiumX</string>
-
-    <key>LBScripts</key>
-    <dict>
-        <key>LBDefaultScript</key>
-        <dict>
-            <key>LBScriptName</key>
-            <string>default.sh</string>
-
-            <key>LBReturnsResult</key>
-            <true />
-        </dict>
-    </dict>
+	<key>CFBundleIconFile</key>
+	<string>com.adiumX.adiumX</string>
+	<key>CFBundleIdentifier</key>
+	<string>name.andrewschleifer.Launchbar.AdiumController</string>
+	<key>CFBundleName</key>
+	<string>Adium Controller</string>
+	<key>LBAssociatedApplication</key>
+	<string>com.adiumX.adiumX</string>
+	<key>LBDescription</key>
+	<dict/>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.sh</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
-
